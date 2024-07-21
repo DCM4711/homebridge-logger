@@ -2,10 +2,6 @@
 Log Homebridge events/property-changes to a MySQL database
 
 
-********************************************************************************
-*                             HOMEBRIDGE-LOGGER                                *
-********************************************************************************
-
 This python script aims to solve the problem that there is no built in way to store/log events/property-changes in Homebridge. It is specifically built for my own Homebridge infrastructure but can be easilly extended and modified. Maybe it is of use for someone else too ;)
 
 The script parses the homebridge logfile and extracts events from different types of devices and writes them into a mysql database.
